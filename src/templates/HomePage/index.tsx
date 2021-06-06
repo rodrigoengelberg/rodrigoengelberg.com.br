@@ -16,7 +16,7 @@ const HomePage = ({ data }: HomePageProps) => {
 
   return (
     <>
-      <SEO title="Rafael Martins - Desenvolvedor Frontend" />
+      <SEO title="Rodrigo Engelberg - Desenvolvedor Fullstack" />
 
       <AnimationContainer animation="appearFromAbove">
         <WelcomeContainer data={welcome} />

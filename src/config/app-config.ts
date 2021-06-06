@@ -6,5 +6,5 @@ export const ABOUT_URL = `${API_URL}/about`;
 export const POSTS_URL = `${API_URL}/posts`;
 export const PROJECTS_URL = `${API_URL}/projects`;
 
-export const SITE_NAME = 'Rafael Martins';
-export const SITE_URL = 'https://rafaelmartins.dev/';
+export const SITE_NAME = 'Rodrigo Engelberg';
+export const SITE_URL = 'https://rodrigoengelberg.com.br/';

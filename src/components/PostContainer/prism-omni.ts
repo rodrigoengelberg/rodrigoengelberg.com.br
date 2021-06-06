@@ -5,7 +5,7 @@ export const PrismWrapper = styled.div`
  * Omni Theme by Rocketseat [@rocketseat]
  * A dark theme based on Dracula
  *
- * Ported for PrismJS by Rafael Martins [@martins-rafael]
+ * Ported for PrismJS by Rodrigo Engelberg [@rodrigoengelberg]
  * https://github.com/getomni/omni
  */
 
