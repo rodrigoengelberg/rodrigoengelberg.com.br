@@ -77,7 +77,7 @@ const ProjectsPage = ({ projects }: ProjectsPageProps) => {
               title="Ir para o GitHub"
               target="_blank"
               rel="noreferrer noopener"
-              href="https://github.com/martins-rafael"
+              href="https://github.com/rodrigoengelberg"
             >
               Ver todos repositórios no GitHub
             </a>

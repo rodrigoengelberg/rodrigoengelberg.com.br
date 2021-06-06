@@ -19,13 +19,13 @@ const Footer = () => {
       </div>
 
       <div>
-        <a title="Email" href="mailto:rafaeldcmartins@gmail.com">
+        <a title="Email" href="mailto:rodrigoengelberg@gmail.com">
           <FiMail size={20} />
         </a>
 
         <a
           title="LinkedIn"
-          href="https://www.linkedin.com/in/rafaeldcmartins/"
+          href="https://www.linkedin.com/in/rodrigoengelberg/"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -34,7 +34,7 @@ const Footer = () => {
 
         <a
           title="GitHub"
-          href="https://github.com/martins-rafael"
+          href="https://github.com/rodrigoengelberg"
           target="_blank"
           rel="noreferrer noopener"
         >
