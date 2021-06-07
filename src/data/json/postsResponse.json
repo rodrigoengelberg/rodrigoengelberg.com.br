@@ -1,0 +1,638 @@
+[
+    {
+      "id": 10,
+      "title": "O estagiário decidiu escrever código",
+      "content": "## O café do segundo andar e mais gostoso. \nQuem é o animal que fez teste unitário de get e set? Principalmente ao se trabalhar com flex onde mapearam o ambiente inteiro via properties.\n\n O estagiário decidiu escrever código write-only, é? Ops... Fui dar um update no banco e esqueci do where !!! Se acabar o café eu vou embora. Antes compilava Usuários tsc tsc. Já tá quase pronto! Bixo da não, chamem o Deus odin, só ele para marretar essa gambira ae.\n\n Este requisito não estava no escopo do projeto. Permission Denied. Agora só dar um commit, push é já era. Mais um pastel de carne aí também? Isso aqui é a gambs que faz funcionar mas nem comentei pq é facil entender.\n\n Deu pau no backend!!! Depois eu documento todos os métodos de uma vez. Da uma olhada no show history e diz se essa merda foi eu quem comitei. Isso não é uma gambiarra. É um requisito não documentado!\n\n Mas eu já tinha arrumado isso. Q'Porra é essa? Mudaram essa merda de novo? Precisa testar não. O deadline já está todo fudido.\n\n Isso não é um bug. É uma feature não documentada. O café do segundo andar e mais gostoso. DROPEI A BASE DE PRODUÇÃO POR ENGANO!!!! So pode ir embora depois que o Jenkins terminar de BUILDAR.\n\n```javascript\n'use strict';\n\n// Example 1: Creating a new class (declaration-form)\n// ===============================================================\n\n// A base class is defined using the new reserved 'class' keyword\nclass Polygon {\n  // ..and an (optional) custom class constructor. If one is\n  // not supplied, a default constructor is used instead:\n  // constructor() { }\n  constructor(height, width) {\n    this.name = 'Polygon';\n    this.height = height;\n    this.width = width;\n  }\n\n  // Simple class instance methods using short-hand method\n  // declaration\n  sayName() {\n    ChromeSamples.log('Hi, I am a ', this.name + '.');\n  }\n\n  sayHistory() {\n    ChromeSamples.log('\"Polygon\" is derived from the Greek polus (many) ' +\n      'and gonia (angle).');\n  }\n\n  // We will look at static and subclassed methods shortly\n}\n\n// Classes are used just like ES5 constructor functions:\nlet p = new Polygon(300, 400);\np.sayName();\nChromeSamples.log('The width of this polygon is ' + p.width);\n```\n",
+      "slug": "o-estagiario-decidiu-escrever-codigo",
+      "author": {
+        "id": 2,
+        "name": "Alex",
+        "published_at": "2021-01-28T19:44:06.630Z",
+        "created_at": "2021-01-28T19:41:52.739Z",
+        "updated_at": "2021-05-22T23:13:44.781Z"
+      },
+      "category": {
+        "id": 4,
+        "name": "TypeScript",
+        "published_at": "2021-01-28T19:43:57.659Z",
+        "created_at": "2021-01-28T19:41:18.336Z",
+        "updated_at": "2021-01-28T19:43:57.681Z"
+      },
+      "published_at": "2021-01-28T20:01:41.789Z",
+      "created_at": "2021-01-28T20:01:39.366Z",
+      "updated_at": "2021-05-22T23:13:44.778Z",
+      "cover": {
+        "id": 13,
+        "name": "florian-olivo-4hbJ-eymZ1o-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1920,
+        "height": 1280,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617123693/large_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947.jpg",
+            "hash": "large_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+            "mime": "image/jpeg",
+            "name": "large_florian-olivo-4hbJ-eymZ1o-unsplash.jpg",
+            "path": null,
+            "size": 67.3,
+            "width": 1000,
+            "height": 667,
+            "provider_metadata": {
+              "public_id": "large_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617123694/small_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947.jpg",
+            "hash": "small_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+            "mime": "image/jpeg",
+            "name": "small_florian-olivo-4hbJ-eymZ1o-unsplash.jpg",
+            "path": null,
+            "size": 24.84,
+            "width": 500,
+            "height": 333,
+            "provider_metadata": {
+              "public_id": "small_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617123694/medium_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947.jpg",
+            "hash": "medium_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+            "mime": "image/jpeg",
+            "name": "medium_florian-olivo-4hbJ-eymZ1o-unsplash.jpg",
+            "path": null,
+            "size": 44.71,
+            "width": 750,
+            "height": 500,
+            "provider_metadata": {
+              "public_id": "medium_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617123692/thumbnail_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947.jpg",
+            "hash": "thumbnail_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+            "mime": "image/jpeg",
+            "name": "thumbnail_florian-olivo-4hbJ-eymZ1o-unsplash.jpg",
+            "path": null,
+            "size": 7.2,
+            "width": 234,
+            "height": 156,
+            "provider_metadata": {
+              "public_id": "thumbnail_florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 206.33,
+        "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617123692/florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "florian_olivo_4hb_J_eym_Z1o_unsplash_dd8d2d3947",
+          "resource_type": "image"
+        },
+        "created_at": "2021-03-30T17:01:34.685Z",
+        "updated_at": "2021-03-30T17:01:34.717Z"
+      }
+    },
+    {
+      "id": 11,
+      "title": " Hero can be anyone",
+      "content": " Accomplice? I'm gonna tell them the whole thing was your idea. This isn't a car. It was a dog. It was a big dog.\n\n I'm not wearing hockey pads. I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.\n\n Bruce Wayne, eccentric billionaire. Bruce Wayne, eccentric billionaire. Hero can be anyone. Even a man knowing something as simple and reassuring as putting a coat around a young boy shoulders to let him know the world hadn't ended.\n\n I'm Batman My anger outweights my guilt. It's ends here. I'm not wearing hockey pads. It's ends here. Bruce Wayne, eccentric billionaire. Accomplice? I'm gonna tell them the whole thing was your idea. Well, you see... I'm buying this hotel and setting some new rules about the pool area.\n\n.\n\n\n```javascript\nfunction reverseString(str) {\n  let result = '';\n  for (let i = str.length - 1; i >= 0; i--) {\n    result += str[i];\n  }\n  return result;\n}\n\nconsole.log(reverseString(\"hello\"));\n```\n\n I will go back to Gotham and I will fight men Iike this but I will not become an executioner. I'll be standing where l belong. Between you and the peopIe of Gotham.\n\n My anger outweights my guilt. I will go back to Gotham and I will fight men Iike this but I will not become an executioner.\n\n The first time I stole so that I wouldn't starve, yes. I lost many assumptions about the simple nature of right and wrong. And when I traveled I learned the fear before a crime and the thrill of success. But I never became one of them.\n\n```html\n<header>\n    <nav class=\"links\">\n        <li>\n            <a href=\"/\">About</a>\n        </li>\n        <li>\n            <a href=\"/portfolio\">Classes</a>\n        </li>\n    </nav>\n</header>\n```\n\n",
+      "slug": "hero-can-be-anyone",
+      "author": {
+        "id": 1,
+        "name": "Rafael",
+        "published_at": "2021-01-28T19:44:14.814Z",
+        "created_at": "2021-01-28T19:41:41.398Z",
+        "updated_at": "2021-01-28T19:44:14.846Z"
+      },
+      "category": {
+        "id": 1,
+        "name": "Misc",
+        "published_at": "2021-01-28T19:43:53.927Z",
+        "created_at": "2021-01-28T19:40:29.694Z",
+        "updated_at": "2021-01-28T19:43:53.965Z"
+      },
+      "published_at": "2021-03-05T23:54:55.703Z",
+      "created_at": "2021-03-05T23:54:52.162Z",
+      "updated_at": "2021-03-30T16:55:25.858Z",
+      "cover": {
+        "id": 12,
+        "name": "ali-kokab-Yv2HzOr8jAA-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1920,
+        "height": 1280,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617122957/large_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767.jpg",
+            "hash": "large_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+            "mime": "image/jpeg",
+            "name": "large_ali-kokab-Yv2HzOr8jAA-unsplash.jpg",
+            "path": null,
+            "size": 29.77,
+            "width": 1000,
+            "height": 667,
+            "provider_metadata": {
+              "public_id": "large_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617122958/small_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767.jpg",
+            "hash": "small_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+            "mime": "image/jpeg",
+            "name": "small_ali-kokab-Yv2HzOr8jAA-unsplash.jpg",
+            "path": null,
+            "size": 11.29,
+            "width": 500,
+            "height": 333,
+            "provider_metadata": {
+              "public_id": "small_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617122957/medium_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767.jpg",
+            "hash": "medium_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+            "mime": "image/jpeg",
+            "name": "medium_ali-kokab-Yv2HzOr8jAA-unsplash.jpg",
+            "path": null,
+            "size": 19.42,
+            "width": 750,
+            "height": 500,
+            "provider_metadata": {
+              "public_id": "medium_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617122957/thumbnail_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767.jpg",
+            "hash": "thumbnail_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+            "mime": "image/jpeg",
+            "name": "thumbnail_ali-kokab-Yv2HzOr8jAA-unsplash.jpg",
+            "path": null,
+            "size": 4.18,
+            "width": 234,
+            "height": 156,
+            "provider_metadata": {
+              "public_id": "thumbnail_ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 86.62,
+        "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617122956/ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "ali_kokab_Yv2_Hz_Or8j_AA_unsplash_0da5303767",
+          "resource_type": "image"
+        },
+        "created_at": "2021-03-30T16:49:18.343Z",
+        "updated_at": "2021-03-30T16:49:18.396Z"
+      }
+    },
+    {
+      "id": 7,
+      "title": "And behind the ship, the galley",
+      "content": "## The spaceship was flying erratically, something was wrong... and behind the ship, the galley.\n\nA servant girl stood with a tray of food on her hip.\n\nShe was giving Kat the eye, making her do a little dance to get the boy's attention, a little dance she used on many a 'gentleman' in the kitchen.\n\nKat looked at her, puzzled, when suddenly something went down and the girl yelped.\n\nKat caught the tray before it hit the ground, thanked the girl, and got off the train.\n\nShe would have liked to look around a bit more, but she saw another woman waiting, and so...\n\nRose thought to herself as she tried to convince herself the signs of a troubled vessel were only signs of a troubled traveler.\n\nOne of the crewmen was keeping watch of the doors to the docking bays, and had been watching for a short while.\n\nHe was saying something about how hard it was to watch them like this, knowing they had yet to see what he had warned them about.\n\nIt was almost as if they were waiting for the worst...\n\nRose was almost glad that Doctor Ember had stood to fight the X - ray",
+      "slug": "and-behind-the-ship-the-galley",
+      "author": {
+        "id": 3,
+        "name": "Yuki",
+        "published_at": "2021-01-28T19:44:09.904Z",
+        "created_at": "2021-01-28T19:42:09.832Z",
+        "updated_at": "2021-01-28T19:44:09.922Z"
+      },
+      "category": {
+        "id": 1,
+        "name": "Misc",
+        "published_at": "2021-01-28T19:43:53.927Z",
+        "created_at": "2021-01-28T19:40:29.694Z",
+        "updated_at": "2021-01-28T19:43:53.965Z"
+      },
+      "published_at": "2021-01-28T19:57:12.721Z",
+      "created_at": "2021-01-28T19:57:10.731Z",
+      "updated_at": "2021-03-30T17:39:52.367Z",
+      "cover": {
+        "id": 16,
+        "name": "erika--y66gr9hmLo-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1920,
+        "height": 1282,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617125973/large_erika_y66gr9hm_Lo_unsplash_a3b4683928.jpg",
+            "hash": "large_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+            "mime": "image/jpeg",
+            "name": "large_erika--y66gr9hmLo-unsplash.jpg",
+            "path": null,
+            "size": 39.59,
+            "width": 1000,
+            "height": 668,
+            "provider_metadata": {
+              "public_id": "large_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617125973/small_erika_y66gr9hm_Lo_unsplash_a3b4683928.jpg",
+            "hash": "small_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+            "mime": "image/jpeg",
+            "name": "small_erika--y66gr9hmLo-unsplash.jpg",
+            "path": null,
+            "size": 13.31,
+            "width": 500,
+            "height": 334,
+            "provider_metadata": {
+              "public_id": "small_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617125973/medium_erika_y66gr9hm_Lo_unsplash_a3b4683928.jpg",
+            "hash": "medium_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+            "mime": "image/jpeg",
+            "name": "medium_erika--y66gr9hmLo-unsplash.jpg",
+            "path": null,
+            "size": 24.69,
+            "width": 750,
+            "height": 501,
+            "provider_metadata": {
+              "public_id": "medium_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617125972/thumbnail_erika_y66gr9hm_Lo_unsplash_a3b4683928.jpg",
+            "hash": "thumbnail_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+            "mime": "image/jpeg",
+            "name": "thumbnail_erika--y66gr9hmLo-unsplash.jpg",
+            "path": null,
+            "size": 4.14,
+            "width": 234,
+            "height": 156,
+            "provider_metadata": {
+              "public_id": "thumbnail_erika_y66gr9hm_Lo_unsplash_a3b4683928",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "erika_y66gr9hm_Lo_unsplash_a3b4683928",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 113.51,
+        "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617125972/erika_y66gr9hm_Lo_unsplash_a3b4683928.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "erika_y66gr9hm_Lo_unsplash_a3b4683928",
+          "resource_type": "image"
+        },
+        "created_at": "2021-03-30T17:39:34.117Z",
+        "updated_at": "2021-03-30T17:39:34.137Z"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Before boarding your rocket to Mars, remember to pack these items",
+      "content": "## Before boarding your rocket to Mars, remember to pack these items:\n\nA large, flat, square box\n\nYou will need a large, flat, square box to pack any items you'll want to bring along for the ride. If you aren't sure what the size of your box is, just check the NASA website. Once you've found your box, the first thing you need to do is decorate the box to reflect your personality. Use rubber stamps or stickers, string, pipe cleaners, pens, magnets, markers or anything else you can find. \n\nYou may also want to purchase a large size sheet of paper and cut it into a NASA Space suits.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>Hello world</title>\n  <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>\n  <link rel=\"stylesheet\" href=\"index.css\" />\n</head>\n<body>\n  <div id=\"app\" class=\"app\"></div>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js\"></script>\n  <script src=\"vendor/prism.js\"></script>\n  <script src=\"examples.bundle.js\"></script>\n</body>\n</html> \n\n```\n\nA NASA spacesuit, or spacesuit astronaut-clothing, is a full-body garment worn on NASA space missions to preserve the health of astronauts in outer space, as it is needed for those trips only once every two to three years.\n\nIt is different from an astronaut’s suit which is worn during periods of prolonged time spent in weightlessness.\n\nLike any suit, the spacesuit must contain water and the suit must be watertight.\n\nFor regular missions, astronauts do not have\n",
+      "slug": "before-boarding-your-rocket-to-mars-remember-to-pack-these-items",
+      "author": {
+        "id": 1,
+        "name": "Rafael",
+        "published_at": "2021-01-28T19:44:14.814Z",
+        "created_at": "2021-01-28T19:41:41.398Z",
+        "updated_at": "2021-01-28T19:44:14.846Z"
+      },
+      "category": {
+        "id": 2,
+        "name": "Dev",
+        "published_at": "2021-01-28T19:43:32.376Z",
+        "created_at": "2021-01-28T19:40:45.710Z",
+        "updated_at": "2021-01-28T19:43:32.429Z"
+      },
+      "published_at": "2021-03-30T17:58:10.342Z",
+      "created_at": "2021-03-30T17:57:56.584Z",
+      "updated_at": "2021-05-20T21:25:53.345Z",
+      "cover": {
+        "id": 17,
+        "name": "spacex-YSvUYqf9Mjk-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1920,
+        "height": 1280,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617127063/large_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc.jpg",
+            "hash": "large_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+            "mime": "image/jpeg",
+            "name": "large_spacex-YSvUYqf9Mjk-unsplash.jpg",
+            "path": null,
+            "size": 127.51,
+            "width": 1000,
+            "height": 667,
+            "provider_metadata": {
+              "public_id": "large_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617127064/small_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc.jpg",
+            "hash": "small_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+            "mime": "image/jpeg",
+            "name": "small_spacex-YSvUYqf9Mjk-unsplash.jpg",
+            "path": null,
+            "size": 42.31,
+            "width": 500,
+            "height": 333,
+            "provider_metadata": {
+              "public_id": "small_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617127063/medium_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc.jpg",
+            "hash": "medium_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+            "mime": "image/jpeg",
+            "name": "medium_spacex-YSvUYqf9Mjk-unsplash.jpg",
+            "path": null,
+            "size": 80.04,
+            "width": 750,
+            "height": 500,
+            "provider_metadata": {
+              "public_id": "medium_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617127062/thumbnail_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc.jpg",
+            "hash": "thumbnail_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+            "mime": "image/jpeg",
+            "name": "thumbnail_spacex-YSvUYqf9Mjk-unsplash.jpg",
+            "path": null,
+            "size": 11.38,
+            "width": 234,
+            "height": 156,
+            "provider_metadata": {
+              "public_id": "thumbnail_spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 321.4,
+        "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617127061/spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "spacex_Y_Sv_U_Yqf9_Mjk_unsplash_21b091b5cc",
+          "resource_type": "image"
+        },
+        "created_at": "2021-03-30T17:57:44.453Z",
+        "updated_at": "2021-03-30T17:57:44.573Z"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Meu sobrinho faz pela metade do preço",
+      "content": "##  É pra ontem, eim? hahahaha brincadeira. Mas é pra ontem mesmo. Ok, eu entro em contato. Isso tudo? Meu sobrinho faz pela metade do preço.\n\n Isso tudo? Meu sobrinho faz pela metade do preço. Tudo isto só para adicionar um botão? Mas é só por um botão ali. Quero um app igual do uber. Ok, eu entro em contato. Acho que vou fazer um curso rápido e eu mesmo vou fazer esta alteração, você vai ver como é simples.\n\n Cria uma busca por todos itens do site. Se você não cobrar nada, ou quase nada eu te dou uma porcentagem nos lucros.\n\n Eu quero o seu melhor preço. Tá muito caro, ví um site maior que esse que custava 15 doletas.\n\n```javascript\nimport {x, y} from 'point';\nconst ANSWER = 42;\n\nclass Car extends Vehicle {\n  constructor(speed, cost) {\n    super(speed);\n\n    var c = Symbol('cost');\n    this[c] = cost;\n\n    this.intro = `This is a car runs at\n      ${speed}.`;\n  }\n}\n\nfor (let num of [1, 2, 3]) {\n  console.log(num + 0b111110111);\n}\n\nfunction $initHighlight(block, flags) {\n  try {\n    if (block.className.search(/\\bno\\-highlight\\b/) != -1)\n      return processBlock(block.function, true, 0x0F) + ' class=\"\"';\n  } catch (e) {\n    /* handle exception */\n    var e4x =\n        <div>Example\n            <p>1234</p></div>;\n  }\n  for (var i = 0 / 2; i < classes.length; i++) {\n  // \"0 / 2\" should not be parsed as regexp\n    if (checkCondition(classes[i]) === undefined)\n      return /\\d+[\\s/]/g;\n  }\n  console.log(Array.every(classes, Boolean));\n}\n\nexport  $initHighlight;\n```\n\nIsso tudo? Meu sobrinho faz pela metade do preço. Está aprovado, mas preciso que faça algumas alterações antes. Ta faltando aquele Tchan! Tudo isso pra deixar bonito no celular? É só um ifzinho . Quero um app igual do uber.\n\n Tá tudo pronto já, é só alterar umas coisinhas. Tudo isto só para adicionar um botão? Mas é só por um botão ali. Eu quero o seu melhor preço. Agora quero um relatório completo que cruze todas informações...\n\n Faz uma busca igual do Google no meu site. É só um campo de busca que busque pelo site inteiro.\n\n Tudo isso pra deixar bonito no celular? Indicação é melhor que dinheiro. Ficou ótimo, mas quero que qualquer imagem se adapte muito bem neste espaço, não importa se é grande ou pequena ou o formato direferente, e não quero que ela fique esticada e não perca qualidade..\n\n",
+      "slug": "meu-sobrinho-faz-pela-metade-do-preco",
+      "author": {
+        "id": 1,
+        "name": "Rafael",
+        "published_at": "2021-01-28T19:44:14.814Z",
+        "created_at": "2021-01-28T19:41:41.398Z",
+        "updated_at": "2021-01-28T19:44:14.846Z"
+      },
+      "category": {
+        "id": 1,
+        "name": "Misc",
+        "published_at": "2021-01-28T19:43:53.927Z",
+        "created_at": "2021-01-28T19:40:29.694Z",
+        "updated_at": "2021-01-28T19:43:53.965Z"
+      },
+      "published_at": "2021-01-28T19:59:13.324Z",
+      "created_at": "2021-01-28T19:59:11.337Z",
+      "updated_at": "2021-05-20T21:28:10.333Z",
+      "cover": {
+        "id": 14,
+        "name": "adi-goldstein-mDinBvq1Sfg-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1920,
+        "height": 1103,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124584/large_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b.jpg",
+            "hash": "large_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+            "mime": "image/jpeg",
+            "name": "large_adi-goldstein-mDinBvq1Sfg-unsplash.jpg",
+            "path": null,
+            "size": 48.5,
+            "width": 1000,
+            "height": 574,
+            "provider_metadata": {
+              "public_id": "large_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124585/small_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b.jpg",
+            "hash": "small_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+            "mime": "image/jpeg",
+            "name": "small_adi-goldstein-mDinBvq1Sfg-unsplash.jpg",
+            "path": null,
+            "size": 17.04,
+            "width": 500,
+            "height": 287,
+            "provider_metadata": {
+              "public_id": "small_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124585/medium_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b.jpg",
+            "hash": "medium_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+            "mime": "image/jpeg",
+            "name": "medium_adi-goldstein-mDinBvq1Sfg-unsplash.jpg",
+            "path": null,
+            "size": 30.44,
+            "width": 750,
+            "height": 431,
+            "provider_metadata": {
+              "public_id": "medium_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124583/thumbnail_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b.jpg",
+            "hash": "thumbnail_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+            "mime": "image/jpeg",
+            "name": "thumbnail_adi-goldstein-mDinBvq1Sfg-unsplash.jpg",
+            "path": null,
+            "size": 5.95,
+            "width": 245,
+            "height": 141,
+            "provider_metadata": {
+              "public_id": "thumbnail_adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 141.71,
+        "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124582/adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "adi_goldstein_m_Din_Bvq1_Sfg_unsplash_f901ed6e0b",
+          "resource_type": "image"
+        },
+        "created_at": "2021-03-30T17:16:25.679Z",
+        "updated_at": "2021-03-30T17:16:25.718Z"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Give me Dinos !",
+      "content": "## Caenagnathasia. Mononykus. Zhuchengtyrannus. Hesperosaurus.\n\nTriceratops. Marisaurus. Apatodon. Pakisaurus. Texacephale. Tetragonosaurus. Calamosaurus. Dasygnathus. Velociraptor. Diracodon. Acrocanthosaurus. Colonosaurus. Vitakrisaurus. Iuticosaurus. Aucasaurus. Gryponyx.\n\n Microhadrosaurus. Dimodosaurus. Paludititan. Majungasaurus. Szechuanosaurus. Harpymimus. Pegomastax. Haplocanthus. Shanag. Cetiosauriscus. Archaeoceratops. Scaphonyx. Juravenator. Paluxysaurus. Anchiornis. Fukuiraptor. Atlasaurus. Draconyx. Zhejiangosaurus. Wuerhosaurus. Marshosaurus. Shanyangosaurus. Coelurus. Luoyanggia. Valdoraptor. Wakinosaurus.\n\n Drusilasaura. Eotyrannus. Rileyasuchus. Neovenator. Amphisaurus. Hadrosaurus. Polacanthoides. Squalodon. Ceratonykus. Ahshislepelta. Sinovenator. Tomodon. Peloroplites. Quaesitosaurus.\n\n Kelmayisaurus. Kemkemia. Aletopelta. Chaoyangsaurus. Zuniceratops. Tomodon. Amazonsaurus. Dracorex. Yixianosaurus. Probactrosaurus. Ligabueino. Rileyasuchus. Scaphonyx. Nanosaurus. Sanjuansaurus. Lamaceratops. Fulgurotherium. Diabloceratops. Rahiolisaurus. Betasuchus. Turiasaurus. Jinzhousaurus. Mantellisaurus. Pleuropeltus. Ultrasauros. Microsaurops. Pachycephalosaurus. Graciliraptor.\n\n```css\n.row {\n  display: flex;\n  flex-wrap: wrap;\n  padding: 0 4px;\n}\n\n/* Create four equal columns that sits next to each other */\n.column {\n  flex: 25%;\n  max-width: 25%;\n  padding: 0 4px;\n}\n\n.column img {\n  margin-top: 8px;\n  vertical-align: middle;\n  width: 100%;\n}\n\n/* Responsive layout - makes a two column-layout instead of four columns */\n@media screen and (max-width: 800px) {\n  .column {\n    flex: 50%;\n    max-width: 50%;\n  }\n}\n\n/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */\n@media screen and (max-width: 600px) {\n  .column {\n    flex: 100%;\n    max-width: 100%;\n  }\n}\n```\n\n",
+      "slug": "give-me-dinos",
+      "author": {
+        "id": 2,
+        "name": "Alex",
+        "published_at": "2021-01-28T19:44:06.630Z",
+        "created_at": "2021-01-28T19:41:52.739Z",
+        "updated_at": "2021-05-22T23:13:44.781Z"
+      },
+      "category": {
+        "id": 4,
+        "name": "TypeScript",
+        "published_at": "2021-01-28T19:43:57.659Z",
+        "created_at": "2021-01-28T19:41:18.336Z",
+        "updated_at": "2021-01-28T19:43:57.681Z"
+      },
+      "published_at": "2021-01-28T19:58:26.442Z",
+      "created_at": "2021-01-28T19:57:24.012Z",
+      "updated_at": "2021-05-22T23:13:44.778Z",
+      "cover": {
+        "id": 15,
+        "name": "daniel-cheung-aAVou4wKJYY-unsplash.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1920,
+        "height": 1282,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124948/large_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab.jpg",
+            "hash": "large_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+            "mime": "image/jpeg",
+            "name": "large_daniel-cheung-aAVou4wKJYY-unsplash.jpg",
+            "path": null,
+            "size": 55.65,
+            "width": 1000,
+            "height": 668,
+            "provider_metadata": {
+              "public_id": "large_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124950/small_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab.jpg",
+            "hash": "small_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+            "mime": "image/jpeg",
+            "name": "small_daniel-cheung-aAVou4wKJYY-unsplash.jpg",
+            "path": null,
+            "size": 20.03,
+            "width": 500,
+            "height": 334,
+            "provider_metadata": {
+              "public_id": "small_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124949/medium_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab.jpg",
+            "hash": "medium_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+            "mime": "image/jpeg",
+            "name": "medium_daniel-cheung-aAVou4wKJYY-unsplash.jpg",
+            "path": null,
+            "size": 36.12,
+            "width": 750,
+            "height": 501,
+            "provider_metadata": {
+              "public_id": "medium_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124947/thumbnail_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab.jpg",
+            "hash": "thumbnail_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+            "mime": "image/jpeg",
+            "name": "thumbnail_daniel-cheung-aAVou4wKJYY-unsplash.jpg",
+            "path": null,
+            "size": 6.62,
+            "width": 234,
+            "height": 156,
+            "provider_metadata": {
+              "public_id": "thumbnail_daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 150.57,
+        "url": "https://res.cloudinary.com/dzhoowtzw/image/upload/v1617124946/daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "daniel_cheung_a_A_Vou4w_KJYY_unsplash_c50bbfd2ab",
+          "resource_type": "image"
+        },
+        "created_at": "2021-03-30T17:22:30.885Z",
+        "updated_at": "2021-03-30T17:22:30.921Z"
+      }
+    }
+  ]
