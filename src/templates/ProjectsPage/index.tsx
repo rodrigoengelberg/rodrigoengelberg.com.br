@@ -67,7 +67,7 @@ const ProjectsPage = ({ projects }: ProjectsPageProps) => {
                     rel="noreferrer noopener"
                     href={post.url}
                   >
-                    Ver no GitHub
+                    Ver projeto
                   </a>
                 </div>
               </ProjectContainer>
