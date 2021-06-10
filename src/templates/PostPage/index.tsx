@@ -27,7 +27,7 @@ const PostPage = ({ post }: PostPageProps) => {
         <PostDetails author={post.author.name} date={post.created_at} />
         <PostCover coverUrl={post.cover.formats.large.url} alt={post.title} />
         <PostContainer content={post.content} />
-        <Comments slug={post.slug} title={post.title} />
+        {/* <Comments slug={post.slug} title={post.title} /> */}
       </AnimationContainer>
     </>
   );
