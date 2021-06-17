@@ -1,9 +1,9 @@
 # rodrigoengelberg.com.br
 
 <p>
-  <img src="https://img.shields.io/badge/author-RAFAEL%20MARTINS-6E40C9?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/next-blog?color=6E40C9&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/next-blog?color=6E40C9&style=flat-square">
+  <img src="https://img.shields.io/badge/author-Rodrigo%20Engelberg-6E40C9">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodrigoengelberg/rodrigoengelberg.com.br">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rodrigoengelberg/rodrigoengelberg.com.br">
   <a href="https://opensource.org/licenses/MIT">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
   </a>
@@ -105,5 +105,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 
 Made with :purple_heart: by [Rodrigo Engelberg](https://github.com/rodrigoengelberg)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Rafael%20Martins-6E40C9?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaeldcmartins/)](https://www.linkedin.com/in/rafaeldcmartins/)
-[![Gmail Badge](https://img.shields.io/badge/-rafaeldcmartins@gmail.com-6E40C9?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafaeldcmartins@gmail.com)](mailto:rafaeldcmartins@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Rodrigo%20Engelberg-6E40C9?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigoengelberg/)](https://www.linkedin.com/in/rodrigoengelberg/)
+[![Gmail Badge](https://img.shields.io/badge/-rodrigoengelberg@gmail.com-6E40C9?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodrigoengelberg@gmail.com)](mailto:rodrigoengelberg@gmail.com)
