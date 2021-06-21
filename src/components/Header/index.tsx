@@ -23,20 +23,8 @@ const Header = () => {
         <button onClick={handleMenu}>
           {menuIsOpen ? <CgClose /> : <CgMenuRightAlt />}
         </button>
-        
-        <li key="Home">
-          <Link href='/'>
-            <a onClick={handleLink}>Home</a>
-          </Link>
-        </li>
 
-        <li key="Blog">
-          <Link href='/blog'>
-            <a onClick={handleLink}>Blog</a>
-          </Link>
-        </li>
-
-        {/* <LinksContainer active={menuIsOpen}>
+        <LinksContainer active={menuIsOpen}>
           {content.map(({ label, url }) => (
             <li key={label}>
               <Link href={url}>
@@ -44,8 +32,8 @@ const Header = () => {
               </Link>
             </li>
           ))}
-        </LinksContainer> */}
-
+        </LinksContainer>
+        
       </HeaderContent>
     </Container>
   );
