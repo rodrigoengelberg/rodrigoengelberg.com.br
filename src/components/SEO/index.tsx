@@ -14,7 +14,7 @@ const SEO = ({ title, description }: SEOProps) => {
         name="description"
         content={
           description ||
-          'Desenvolvedor Frontend | ReactJS | Next.js | JavaScript | TypeScript.'
+          'Desenvolvedor Fullstack | Java | Angular | ReactJS | Next.js | JavaScript | TypeScript.'
         }
       />
 
@@ -25,7 +25,7 @@ const SEO = ({ title, description }: SEOProps) => {
         property="og:description"
         content={
           description ||
-          'Desenvolvedor Frontend | ReactJS | Next.js | JavaScript | TypeScript.'
+          'Desenvolvedor Fullstack | Java | Angular | ReactJS | Next.js | JavaScript | TypeScript.'
         }
       />
       <meta property="og:url" content={SITE_URL} />
@@ -37,7 +37,7 @@ const SEO = ({ title, description }: SEOProps) => {
         name="twitter:description"
         content={
           description ||
-          'Desenvolvedor Frontend | ReactJS | Next.js | JavaScript | TypeScript.'
+          'Desenvolvedor Fullstack | Java | Angular | ReactJS | Next.js | JavaScript | TypeScript.'
         }
       />
       <meta name="twitter:url" content={SITE_URL} />
