@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next build && next export",
+    "start": "next start",
     "deploy:static": "next build && next export"
   },
   "dependencies": {
