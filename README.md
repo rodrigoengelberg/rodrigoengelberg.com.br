@@ -56,6 +56,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
+- [NodeJS](https://nodejs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
