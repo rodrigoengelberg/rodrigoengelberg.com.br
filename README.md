@@ -41,11 +41,11 @@ Página pessoal com o propósito de servir como blog e portfólio, desenvolvida 
 - [X] Blog integrado.
 - [X] Markdown highlighting.
 - [X] Scroll to top.
-- [X] API gerada com Strapi CMS.
+- [X] API gerada com NodeJS.
 - [X] Animações de transição entre as páginas e de scroll.
 - [X] Provedor de imagens by Cloudinary.
 - [X] Lazy loading p/ otimizar o desempenho das imagens.
-- [X] Integração com o sistema de comentários Disqus.
+- [X] Possibilidade de integração com o sistema de comentários Disqus.
 - [X] SEO otimizado.
 
 <br>
@@ -63,7 +63,6 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 - [Prism.js](https://prismjs.com/)
 - [remark](https://remark.js.org/)
 - [disqus-react](https://www.npmjs.com/package/disqus-react)
-- [Strapi CMS](https://strapi.io/)
 - [Vercel](https://vercel.com/dashboard)
 - [Heroku](https://www.heroku.com/)
 - [Cloudinary](https://cloudinary.com/)
