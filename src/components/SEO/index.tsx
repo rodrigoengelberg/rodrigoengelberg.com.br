@@ -10,6 +10,7 @@ const SEO = ({ title, description }: SEOProps) => {
   return (
     <Head>
       <title>{title}</title>
+      <meta name="author" content="Rodrigo Engelberg" />
       <meta
         name="description"
         content={
