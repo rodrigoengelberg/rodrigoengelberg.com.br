@@ -35,7 +35,6 @@ Página pessoal com o propósito de servir como blog e portfólio, desenvolvida 
 
 ## Funcionalidades
 
-- [X] JAMstack.
 - [X] Design simples, limpo e responsivo.
 - [X] Páginas dinâmicas geradas com Static Site Generation (SSG).
 - [X] Blog integrado.
@@ -47,6 +46,7 @@ Página pessoal com o propósito de servir como blog e portfólio, desenvolvida 
 - [X] Lazy loading p/ otimizar o desempenho das imagens.
 - [X] Possibilidade de integração com o sistema de comentários Disqus.
 - [X] SEO otimizado.
+- [X] JAMstack.
 
 <br>
 
